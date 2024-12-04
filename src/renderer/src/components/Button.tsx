@@ -1,7 +1,7 @@
-import React from 'react'
+// import React from 'react'
 import { GiPayMoney } from 'react-icons/gi'
 import { MdDeleteForever, MdMode } from 'react-icons/md'
-import { LuPenSquare } from 'react-icons/lu'
+import { LuPencilLine } from 'react-icons/lu'
 import { EleveInscriptionAvecRang } from '@renderer/pages/Classe'
 
 interface ButtonProps {
@@ -36,7 +36,7 @@ const Button = ({ eleve, onSelectEleve }: ButtonProps): JSX.Element => {
         role="button"
         className="btn btn-xs btn-outline bg-blue-600 border-none text-white  text-sm"
       >
-        <LuPenSquare className="font-bold" />
+        <LuPencilLine className="font-bold" />
       </div>
       <ul
         tabIndex={0}
